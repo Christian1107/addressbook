@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro&display=swap");
+
+html {
+  background: url(addressbook-pt2.jpg) rgba(0, 0, 0, 0.6) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+body {
+  font-family: Maven Pro;
+}
+
+.form-style {
+  background-color: rgb(179, 178, 176, 0.6);
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+form .name {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+  background-color: #fff;
+}
+form .email {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+  background-color: #fff;
+}
+form .phone {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+  background-color: #fff;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-family: Maven Pro, sans-serif;
+}
+
+.menu {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+  background-color: #fff;
+  font-family: Maven Pro;
+  font-size: 15px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-color: #fff;
+  font-size: 15px;
+  font-family: maven pro;
+}
+
+/* .contacts {
+  display: flex;
+  justify-content: center;
+  flex: wrap; */
+/* flex-direction: row; */
+
+/* .contact1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.contact2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.contact3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+} */
+
+#contact_list {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.contact_box {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+}
+.fa-trash {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: red;
+}

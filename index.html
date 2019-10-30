@@ -4,9 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" media="all" href="style.css" />
+    <!-- Place your kit's code here -->
+
     <title>Document</title>
   </head>
   <body>
+    <div class="form-style">
+      <h1 class="title">My Contacts</h1>
+      <form>
+        <h3>Name</h3>
+        <input class="name" type="text" name="name" />
+        <h3>Email</h3>
+        <input class="email" type="text" name="email" />
+        <h3>Phone</h3>
+        <input class="phone" type="text" name="phone" />
+        <h3>Relation</h3>
+        <input class="menu" list="browsers" name="relation" />
+        <datalist id="browsers">
+          <option value="Family"> </option>
+          <option value="Co-worker"> </option>
+          <option value="Friend"> </option>
+        </datalist>
+        <button class="button">Add</button>
+      </form>
+    </div>
+
+    <section id="contact_list"></section>
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/65d69f953c.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
